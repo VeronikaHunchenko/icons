@@ -1,0 +1,139 @@
+html,
+body {
+	font-family: var(--base-font-family);
+	color: var(--base-color);
+	max-width: 1700px;
+	padding-left: 70px;
+	padding-right: 70px;
+	height: 100%;
+}
+/*  ----  Topography ----*/
+h1 {
+	font-size: 34px;
+}
+h2 {
+	font-size: 27px;
+	-webkit-margin-before: 20px;
+    -webkit-margin-after: 11px;
+}
+h3 {
+	font-size: 22px;
+	-webkit-margin-after: 9px;
+}
+h4 {
+	font-size: 17px;
+	-webkit-margin-after: 7px;
+}
+h5 {
+	font-size: 16px;
+	-webkit-margin-after: 11px;
+}
+h6, p, blockquote, pre,  code {
+	font-size: var(--base-font-size);
+	font-family: sans-serif;
+}
+img, canvas {
+	max-width: 100%;
+	height: auto;
+}
+blockquote {
+	font-style: italic;
+	border-left-style: solid;
+	border-left-width: 4px;
+	border-color: var(--blockquote-border-color);
+	padding-left: 14px;
+}
+p {
+	line-height: var(--base-line-height);
+	-webkit-margin-after: 22px;
+}
+a {
+	text-decoration: var(--base-link-decoration);
+	color: var(--base-link-color);
+	font-style: var(--base-font-style);
+}
+a:hover {
+	text-decoration: var(--base-link-decoration-hover);
+	color: var(--base-link-color-hover);
+}
+a:focus {
+	text-decoration: var(--base-link-decoration-focus);
+	color: var(--base-link-color-focus);
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*Вместо моей короткой записи, лучше использовать длинную, так как при
+увеличении контента, отступ от лишки текста будет не одинаковый*/ 
+/*ul { list-
+	style-type: square;
+	color: #007975; 
+}*/ 
+ul:not([class]) {     
+	list-style: var(--list-style); 
+} 
+ul:not([class]) > li { 
+	display: flex; 
+} 
+ul:not([class]) > li:before {
+	content: ''; 
+	width: 5px;     
+	height: 5px;     
+	margin-top: 7px; 
+	margin-left: -16px;     
+	background-color: #0f7e96;     
+	margin-right: 10px; 
+} 
+li span {
+	color: #222222; 
+} 
+ul:nth-child(2) {     
+	color: #409b98; 
+} 
+ol li {     
+	color: var(--base-color); 
+} 
+hr {     
+	color: #444444; 
+} 
+li { 
+	padding-bottom: 10px; 
+} 
+ul :nth-child(2) {     
+	padding-top: 20px; 
+} 
+ol li:nth-child(1) { 
+	padding- top: 20px; 
+}
+hr {     
+	border-width: 1px; 
+	border-bottom: 0; 
+	color: var(--base-color); 
+} 
+caption {
+	line-height: 4; 
+}
+
+/*  ----  Table  ----*/
+table {
+	border: 1px solid #dfdfdf;
+	border-spacing: var(--table-border-spacing);
+	border-collapse: var(--table-border-collapse);
+	width: 702px;
+}
+td, th {
+	height: 45px;
+	border: 1px solid #dfdfdf;
+	padding-left: 17px;
+}
+th {
+	text-align: var(--table-th-text-align);
+}
+thead tr:nth-child(odd) {
+  	background-color: #f6f6f6;
+}
+tbody tr:nth-child(even) {
+  	background-color: #f6f6f6;
+}
+

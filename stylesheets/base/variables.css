@@ -1,0 +1,38 @@
+:root {
+	--base-font-family: 'Open Sans', sans-serif;
+	--base-font-size: 1rem;
+	--base-font-weight: normal;
+	--base-font-style: normal;
+	--base-line-height: 1.42;
+	--base-background-color: #fff;
+	--base-color: #222222;
+
+	--base-link-color: #0f7e96;
+	--base-link-decoration: none;
+	--base-link-color-hover: #024f60;
+	--base-link-decoration-hover: underline;
+	--base-link-color-focus: #024f60;
+	--base-link-decoration-focus: underline;
+
+
+	
+	/*--button-font-family: inherit;*/
+	--button-font-size: 14px;
+	--button-font-weight: normal;
+	--button-text-decoration: none;
+	--button-user-select: none;
+
+	--blockquote-border-color: #dfdfdf;
+
+	--ul-background-color: #0f7e96;
+
+	/*--table-background-color: #f6f6f6;*/
+	--table-border-spacing: 0;
+	--table-border-collapse: collapse;
+	--table-th-text-align: left;
+
+	--fieldset-border: 0;
+	--input-font-style: italic;
+	--select-appearance: none;
+	--textarea-resize: none;
+}

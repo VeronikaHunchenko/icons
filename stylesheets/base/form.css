@@ -1,0 +1,91 @@
+fieldset {
+	border: var(--fieldset-border);
+}
+fieldset button {
+	margin-top: 40px;
+}
+label {
+	display: block;
+}
+input[type="text"], [type="password"], [type="url"], [type="email"],
+[type="tel"], [type="search"], [type="number"], [type="date"], [type="month"], [type="week"], [type="datetime-local"], [type="time"]:focus::placeholder {     
+	font-size: var(--base-font-size);
+	font-style: var(--input-font-style);
+	padding: 6px 12px;
+}
+input { 
+	min-width: 600px;
+	min-height: 38px;
+	padding-left: 15px;
+}
+input[type="file"] {
+	margin-left: -15px;
+	margin-top: 15px;
+}
+textarea {
+	width: 600px;
+	height: 185px;
+	resize: var(--textarea-resize);
+}
+.is-error {
+	border: 1px solid #a52727;
+}
+.is-valid {
+	border: 1px solid #409b98;
+}
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+}
+input[type="checkbox"] {
+	width: 12px;
+	height: 12px;
+}
+input[type="radio"], [type="checkbox"] {
+	display: inline;
+	margin-right: 23px;
+}
+input[type="submit"], [type="reset"] {
+	margin-top: 10px;
+}
+/* Вместо того как сделала я, лучше сделать через background-image*/
+select {
+	width: 347px;
+	height: 39px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	padding-left: 25px;
+  	-webkit-appearance: var(--select-appearance);
+ 	-moz-appearance: var(--select-appearance);
+  	appearance: var(--select-appearance);
+  	display: inline-block;
+}
+select:first-child {
+	background-image: url(../../images/arrow.png);
+	background-position: 319px 13px;
+	background-repeat: no-repeat;
+
+}
+/*.arrow-select {
+	position: relative;
+  	display: inline-block;
+}
+.arrow-select:after {
+	content: "▼";
+  	padding: 0 8px;
+  	font-size: 15px;
+  	position: absolute;
+    right: -1px;
+    color: #474d4e;
+    top: 23px;
+  	z-index: 1;
+  	text-align: center;
+  	width: 10%;
+  	height: 100%;
+  	pointer-events: none;
+  	box-sizing: border-box;
+}*/
+option {
+	margin-left: 10px;
+
+}
